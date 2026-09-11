@@ -1,0 +1,11 @@
+# Raw data is large and redistributable only under Kaggle's terms — don't commit it.
+# Anyone cloning this repo downloads it fresh from the Kaggle link in the README.
+data/*.csv
+data/*.db
+data/*.sqlite
+
+# Standard Python/Jupyter noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
